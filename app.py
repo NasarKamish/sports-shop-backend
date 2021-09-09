@@ -108,8 +108,6 @@ users = fetch_users()
 username_table = {u.username: u for u in users}
 userid_table = {u.id: u for u in users}
 
-we = 1
-
 
 def authenticate(username, password):
     user = username_table.get(username, None)
